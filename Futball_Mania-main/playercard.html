@@ -5,7 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to FutMania</title>
+    <title>Futball Mania</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/38858ab141.js" crossorigin="anonymous"></script>
+    <!-- CSS style-sheet -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- bootstrap style-sheet -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
 </head>
 
 <body>
@@ -13,31 +20,25 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">FutMania</a>
+                <a class="navbar-brand fw-bold " href="index.html">FutMania</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" style="display:flex; justify-content:end" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="playercard.html">Player Card</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Emerging Player</a>
+                            <a class="nav-link" href="emergingplayer.html">Emerging Player</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Fixture</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fixture.html">Fixture</a>
+                        </li>
 
-                                <li><a class="dropdown-item" href="#">About us</a></li>
-                            </ul>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -169,6 +170,23 @@
         </div>
 
     </section>
+    <!--------------
+             last container work 
+            -------------->
+    <footer>
+        <div class="football-logo">
+            <img src="images/Logo.png" alt="">
+        </div>
+        <div class="fontawesome">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="far fa-copyright"></i> 2022 Football(Md Sakib Uddin)</p>
+        </div>
+    </footer>
 </body>
 
 </html>

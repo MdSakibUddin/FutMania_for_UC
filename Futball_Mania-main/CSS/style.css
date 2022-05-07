@@ -10,12 +10,13 @@ body {
     padding: 0%;
 }
 
-.first-container {
+.fc {
     background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    padding: 50px;
 }
 
 .title {
@@ -26,7 +27,7 @@ body {
     color: white;
     height: 230px;
     width: 485px;
-    padding: 156px 207px;
+    /* padding: 156px 207px; */
     font-size: 64px;
     font-weight: bold;
 }
@@ -42,7 +43,7 @@ body {
 .banner img {
     width: 556px;
     height: 438px;
-    padding: 153px 0px;
+    /* padding: 153px 0px; */
 }
 
 .banner img:hover {
